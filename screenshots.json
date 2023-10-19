@@ -1,0 +1,64 @@
+{
+  "roles": [
+    {
+      "roleName": "parent",
+      "timestamp": "2023-10-20T10:15:30Z",
+      "pages": [
+        {
+          "id": 1,
+          "url": "https://example.com/parent/dashboard",
+          "statusCode": 200,
+          "thumbnail": "path/to/parent/thumbnail1.jpg",
+          "screenshot": "path/to/parent/screenshot1.jpg"
+        },
+        {
+          "id": 2,
+          "url": "https://example.com/parent/settings",
+          "statusCode": 200,
+          "thumbnail": "path/to/parent/thumbnail2.jpg",
+          "screenshot": "path/to/parent/screenshot2.jpg"
+        }
+      ]
+    },
+    {
+      "roleName": "schoolmanager",
+      "timestamp": "2023-10-20T10:30:45Z",
+      "pages": [
+        {
+          "id": 3,
+          "url": "https://example.com/schoolmanager/reports",
+          "statusCode": 200,
+          "thumbnail": "path/to/schoolmanager/thumbnail1.jpg",
+          "screenshot": "path/to/schoolmanager/screenshot1.jpg"
+        }
+      ]
+    },
+    {
+      "roleName": "teacher",
+      "timestamp": "2023-10-20T10:45:00Z",
+      "pages": [
+        {
+          "id": 4,
+          "url": "https://example.com/teacher/classes",
+          "statusCode": 200,
+          "thumbnail": "path/to/teacher/thumbnail1.jpg",
+          "screenshot": "path/to/teacher/screenshot1.jpg"
+        },
+        {
+          "id": 5,
+          "url": "https://example.com/teacher/attendance",
+          "statusCode": 404,
+          "thumbnail": "path/to/teacher/thumbnail2.jpg",
+          "screenshot": "path/to/teacher/screenshot2.jpg"
+        },
+        {
+          "id": 6,
+          "url": "https://example.com/teacher/grades",
+          "statusCode": 200,
+          "thumbnail": "path/to/teacher/thumbnail3.jpg",
+          "screenshot": "path/to/teacher/screenshot3.jpg"
+        }
+      ]
+    }
+  ]
+}
