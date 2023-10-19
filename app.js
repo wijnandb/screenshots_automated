@@ -25,29 +25,57 @@ function handleNavigation(data) {
 }
 
 function showHomepage(data) {
-    contentDiv.innerHTML = '';
+    contentDiv.innerHTML = `
+        <h2>Roles Overview</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Role Name</th>
+                    <th>Number of Pages</th>
+                    <th>Last Updated</th>
+                </tr>
+            </thead>
+            <tbody id="roleTableBody">
+            </tbody>
+        </table>
+    `;
+    const tableBody = document.getElementById("roleTableBody");
     data.roles.forEach(roleData => {
-        const roleDiv = document.createElement('div');
-        roleDiv.innerHTML = `
-            <h2><a href="#/${roleData.roleName}">${roleData.roleName}</a></h2>
-            <p>Last Updated: ${roleData.timestamp}</p>
-            <p>Number of Pages: ${roleData.pages.length}</p>
+        const roleRow = document.createElement('tr');
+        roleRow.innerHTML = `
+            <td><a href="#/${roleData.roleName}">${roleData.roleName}</a></td>
+            <td>${roleData.pages.length}</td>
+            <td>${roleData.timestamp}</td>
         `;
-        contentDiv.appendChild(roleDiv);
+        tableBody.appendChild(roleRow);
     });
 }
 
 function showRolePages(data, role) {
     const roleData = data.roles.find(r => r.roleName === role);
-    contentDiv.innerHTML = `<h2>${role}</h2>`;
+    contentDiv.innerHTML = `
+        <h2>Pages for ${role}</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>URL</th>
+                    <th>Status Code</th>
+                    <th>Thumbnail</th>
+                </tr>
+            </thead>
+            <tbody id="pageTableBody">
+            </tbody>
+        </table>
+    `;
+    const tableBody = document.getElementById("pageTableBody");
     roleData.pages.forEach(page => {
-        const pageDiv = document.createElement('div');
-        pageDiv.innerHTML = `
-            <h3><a href="#/${role}/${page.id}">${page.url}</a></h3>
-            <p>Status Code: ${page.statusCode}</p>
-            <img class="thumbnail" src="${page.thumbnail}" alt="Thumbnail for ${page.url}">
+        const pageRow = document.createElement('tr');
+        pageRow.innerHTML = `
+            <td><a href="#/${role}/${page.id}">${page.url}</a></td>
+            <td>${page.statusCode}</td>
+            <td><img class="thumbnail" src="${page.thumbnail}" alt="Thumbnail for ${page.url}"></td>
         `;
-        contentDiv.appendChild(pageDiv);
+        tableBody.appendChild(pageRow);
     });
 }
 
