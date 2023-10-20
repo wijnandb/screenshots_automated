@@ -93,4 +93,5 @@ function showScreenshotDetails(data, role, id) {
         <p><img src="${page.screenshot}" alt="Screenshot for ${page.url}"></p>
     `;
 }
+}
 
