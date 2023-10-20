@@ -25,55 +25,63 @@ function handleNavigation(data) {
 }
 
 function showHomepage(data) {
-contentDiv.innerHTML = `
-    <!-- ... -->
-    <h2 class="text-2xl mb-6 font-semibold">Roles Overview</h2>
-    <table class="min-w-full divide-y divide-gray-200">
-        <thead class="bg-gray-50">
-            <tr class="text-left bg-gray-200">
-                <th class="px-4 py-2">Role Name</th>
-                <th class="px-4 py-2">Number of Pages</th>
-                <th class="px-4 py-2">Last Updated</th>
-            </tr>
-        </thead>
-        <tbody id="roleTableBody"></tbody>
-    </table>
+    contentDiv.innerHTML = `
+        <h2 class="text-2xl mb-6 font-semibold">Roles Overview</h2>
+        <table class="w-full mt-5 border border-gray-300 divide-y divide-gray-200 rounded-lg overflow-hidden">
+            <thead>
+                <tr class="text-left bg-gray-200">
+                    <th class="px-4 py-2">Role Name</th>
+                    <th class="px-4 py-2">Number of Pages</th>
+                    <th class="px-4 py-2">Last Updated</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
     `;
-    
-    const tableBody = document.getElementById("roleTableBody");
+
+    const tableBody = contentDiv.querySelector("tbody");
     data.roles.forEach(roleData => {
         const roleRow = document.createElement('tr');
         roleRow.innerHTML = `
-            <td><a href="#/${roleData.roleName}">${roleData.roleName}</a></td>
-            <td>${roleData.pages.length}</td>
-            <td>${roleData.timestamp}</td>
+            <td class="px-4 py-2"><a href="#/${roleData.roleName}" class="text-blue-500 hover:underline">${roleData.roleName}</a></td>
+            <td class="px-4 py-2">${roleData.pages.length}</td>
+            <td class="px-4 py-2">${roleData.timestamp}</td>
         `;
         tableBody.appendChild(roleRow);
     });
 }
 
+
 function showRolePages(data, role) {
     contentDiv.innerHTML = `
-        <h2 class="text-2xl mb-5 font-semibold">Pages for ${role}</h2>
-        <table class="min-w-full divide-y divide-gray-200">
-            <!-- ... -->
-            <thead class="bg-gray-50">
-                <!-- ... -->
+        <h2 class="text-2xl mb-6 font-semibold">Pages for ${role}</h2>
+        <table class="w-full mt-5 border border-gray-300 divide-y divide-gray-200 rounded-lg overflow-hidden">
+            <thead>
+                <tr class="text-left bg-gray-200">
+                    <th class="px-4 py-2">URL</th>
+                    <th class="px-4 py-2">Status Code</th>
+                    <th class="px-4 py-2">Thumbnail</th>
+                </tr>
             </thead>
-            <!-- ... -->
+            <tbody>
+            </tbody>
         </table>
     `;
-    const tableBody = document.getElementById("pageTableBody");
+
+    const tableBody = contentDiv.querySelector("tbody");
+    const roleData = data.roles.find(r => r.roleName === role);
     roleData.pages.forEach(page => {
         const pageRow = document.createElement('tr');
         pageRow.innerHTML = `
-            <td><a href="#/${role}/${page.id}">${page.url}</a></td>
-            <td>${page.statusCode}</td>
-            <td><img class="thumbnail" src="${page.thumbnail}" alt="Thumbnail for ${page.url}"></td>
+            <td class="px-4 py-2"><a href="#/${role}/${page.id}" class="text-blue-500 hover:underline">${page.url}</a></td>
+            <td class="px-4 py-2">${page.statusCode}</td>
+            <td class="px-4 py-2"><img class="thumbnail" src="${page.thumbnail}" alt="Thumbnail for ${page.url}"></td>
         `;
         tableBody.appendChild(pageRow);
     });
 }
+
 
 function showScreenshotDetails(data, role, id) {
     const roleData = data.roles.find(r => r.roleName === role);
