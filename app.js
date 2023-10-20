@@ -25,15 +25,19 @@ function handleNavigation(data) {
 }
 
 function showHomepage(data) {
-    contentDiv.innerHTML = `
-        <h2 class="text-2xl mb-5 font-semibold">Roles Overview</h2>
-        <table class="min-w-full divide-y divide-gray-200">
-            <!-- ... -->
-            <thead class="bg-gray-50">
-                <!-- ... -->
-            </thead>
-            <!-- ... -->
-        </table>
+contentDiv.innerHTML = `
+    <!-- ... -->
+    <h2 class="text-2xl mb-6 font-semibold">Roles Overview</h2>
+    <table class="min-w-full divide-y divide-gray-200">
+        <thead class="bg-gray-50">
+            <tr class="text-left bg-gray-200">
+                <th class="px-4 py-2">Role Name</th>
+                <th class="px-4 py-2">Number of Pages</th>
+                <th class="px-4 py-2">Last Updated</th>
+            </tr>
+        </thead>
+        <tbody id="roleTableBody"></tbody>
+    </table>
     `;
     
     const tableBody = document.getElementById("roleTableBody");
