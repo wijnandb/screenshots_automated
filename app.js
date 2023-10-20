@@ -26,19 +26,16 @@ function handleNavigation(data) {
 
 function showHomepage(data) {
     contentDiv.innerHTML = `
-        <h2>Roles Overview</h2>
-        <table>
-            <thead>
-                <tr>
-                    <th>Role Name</th>
-                    <th>Number of Pages</th>
-                    <th>Last Updated</th>
-                </tr>
+        <h2 class="text-2xl mb-5 font-semibold">Roles Overview</h2>
+        <table class="min-w-full divide-y divide-gray-200">
+            <!-- ... -->
+            <thead class="bg-gray-50">
+                <!-- ... -->
             </thead>
-            <tbody id="roleTableBody">
-            </tbody>
+            <!-- ... -->
         </table>
     `;
+    
     const tableBody = document.getElementById("roleTableBody");
     data.roles.forEach(roleData => {
         const roleRow = document.createElement('tr');
@@ -52,19 +49,14 @@ function showHomepage(data) {
 }
 
 function showRolePages(data, role) {
-    const roleData = data.roles.find(r => r.roleName === role);
     contentDiv.innerHTML = `
-        <h2>Pages for ${role}</h2>
-        <table>
-            <thead>
-                <tr>
-                    <th>URL</th>
-                    <th>Status Code</th>
-                    <th>Thumbnail</th>
-                </tr>
+        <h2 class="text-2xl mb-5 font-semibold">Pages for ${role}</h2>
+        <table class="min-w-full divide-y divide-gray-200">
+            <!-- ... -->
+            <thead class="bg-gray-50">
+                <!-- ... -->
             </thead>
-            <tbody id="pageTableBody">
-            </tbody>
+            <!-- ... -->
         </table>
     `;
     const tableBody = document.getElementById("pageTableBody");
@@ -82,8 +74,9 @@ function showRolePages(data, role) {
 function showScreenshotDetails(data, role, id) {
     const roleData = data.roles.find(r => r.roleName === role);
     const page = roleData.pages.find(p => p.id === parseInt(id));
+   function showScreenshotDetails(data, role, id) {
     contentDiv.innerHTML = `
-        <h2>${role} - ${page.url}</h2>
+        <h2 class="text-2xl mb-5 font-semibold">${role} - ${page.url}</h2>
         <p>Status Code: ${page.statusCode}</p>
         <p><img src="${page.screenshot}" alt="Screenshot for ${page.url}"></p>
     `;
