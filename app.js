@@ -26,7 +26,7 @@ function handleNavigation(data) {
 
 function showHomepage(data) {
     contentDiv.innerHTML = `
-        <h2 class="text-2xl mb-6 font-semibold">Roles Overview</h2>
+        <h2 class="text-2xl mb-6 font-semibold">Pagina's per rol</h2>
         <table class="w-full mt-5 border border-gray-300 divide-y divide-gray-200 rounded-lg overflow-hidden">
             <thead>
                 <tr class="text-left bg-gray-200">
@@ -62,9 +62,9 @@ function showRolePages(data, role) {
         <table class="w-full mt-5 border border-gray-300 divide-y divide-gray-200 rounded-lg overflow-hidden">
             <thead>
                 <tr class="text-left bg-gray-200">
-                    <th class="px-4 py-2">URL</th>
-                    <th class="px-4 py-2">Status Code</th>
-                    <th class="px-4 py-2">Thumbnail</th>
+                    <th class="px-4 py-2">Pagina</th>
+                    <th class="px-4 py-2">Status</th>
+                    <th class="px-4 py-2">Screenshot</th>
                 </tr>
             </thead>
             <tbody>
@@ -77,9 +77,9 @@ function showRolePages(data, role) {
     roleData.pages.forEach(page => {
         const pageRow = document.createElement('tr');
         pageRow.innerHTML = `
-            <td class="px-4 py-2"><a href="#/${role}/${page.id}" class="text-blue-500 hover:underline">${page.url}</a></td>
+            <td class="px-4 py-2"><a href="${page.url}" class="text-blue-500 hover:underline">${page.url}</a></td>
             <td class="px-4 py-2">${page.statusCode}</td>
-            <td class="px-4 py-2"><img class="thumbnail" src="${page.thumbnail}" alt="Thumbnail for ${page.url}"></td>
+            <td class="px-4 py-2"><a href="#/${role}/${page.id}" class="text-blue-500 hover:underline"><img class="thumbnail" src="${page.thumbnail}" alt="Thumbnail for ${page.url}"></a></td>
         `;
         tableBody.appendChild(pageRow);
     });
@@ -94,8 +94,7 @@ function showScreenshotDetails(data, role, id) {
             <a href="#" class="text-blue-500 hover:underline">Home</a> / 
             <a href="#/${role}" class="text-blue-500 hover:underline">${role}</a> / ${page.url}
         </nav>
-        <h2 class="text-2xl mb-5 font-semibold">${role} - ${page.url}</h2>
-        <p>Status Code: ${page.statusCode}</p>
+        <h2 class="text-2xl mb-5 font-semibold">${role} - ${page.url} - ${page.statusCode}</h2>
         <p><img src="${page.screenshot}" alt="Screenshot for ${page.url}"></p>
     `;
 }
