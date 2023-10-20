@@ -7,26 +7,16 @@
 
     <title>Screenshot Overzicht</title>
     <style>
-        /* Add some basic styles here */
+        /* You can keep global or other styles here, but we'll move to Tailwind for most styling */
         .thumbnail {
             width: 50px;
             height: 50px;
         }
-        table {
-            border-collapse: collapse;
-            width: 100%;
-        }
-        th, td {
-            border: 1px solid #ddd;
-            padding: 8px;
-        }
-        th {
-            background-color: #f2f2f2;
-        }
     </style>
 </head>
-<body>
-    <div id="content"></div>
+
+<body class="bg-gray-100 font-sans text-gray-700">
+    <div class="container mx-auto p-5" id="content"></div>
 
     <script src="app.js"></script>
 </body>
