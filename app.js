@@ -55,6 +55,9 @@ function showHomepage(data) {
 
 function showRolePages(data, role) {
     contentDiv.innerHTML = `
+        <nav class="mb-4 text-sm font-semibold">
+            <a href="#" class="text-blue-500 hover:underline">Home</a> / ${role}
+        </nav>
         <h2 class="text-2xl mb-6 font-semibold">Pages for ${role}</h2>
         <table class="w-full mt-5 border border-gray-300 divide-y divide-gray-200 rounded-lg overflow-hidden">
             <thead>
@@ -86,12 +89,15 @@ function showRolePages(data, role) {
 function showScreenshotDetails(data, role, id) {
     const roleData = data.roles.find(r => r.roleName === role);
     const page = roleData.pages.find(p => p.id === parseInt(id));
-   function showScreenshotDetails(data, role, id) {
     contentDiv.innerHTML = `
+        <nav class="mb-4 text-sm font-semibold">
+            <a href="#" class="text-blue-500 hover:underline">Home</a> / 
+            <a href="#/${role}" class="text-blue-500 hover:underline">${role}</a> / ${page.url}
+        </nav>
         <h2 class="text-2xl mb-5 font-semibold">${role} - ${page.url}</h2>
         <p>Status Code: ${page.statusCode}</p>
         <p><img src="${page.screenshot}" alt="Screenshot for ${page.url}"></p>
     `;
 }
-}
+
 
