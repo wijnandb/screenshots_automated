@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
 import requests
 
-BASE_URL = 'https://yourwebsite.com'
+BASE_URL = 'https://acceptatiebredeschoolzuidoost.herokuapp.com/'
 
 def get_all_links_for_role(role):
     start_url = f"{BASE_URL}/{role}/"
@@ -26,5 +26,5 @@ def get_all_links_for_role(role):
 
     return visited
 
-roles = ['parent', 'schoolmanager', 'teacher']
+roles = ['parent', 'schoolmanager', 'teacher', 'company', 'ppozo']
 all_pages = {role: get_all_links_for_role(role) for role in roles}
