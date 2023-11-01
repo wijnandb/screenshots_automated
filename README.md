@@ -8,7 +8,7 @@ Summary:
 - login with certain role
 - visit all pages belonging to that role
 - take screenshots
-- record roel, URL, time of visit, statuscode, screenshot
+- record role, URL, time of visit, statuscode, screenshot
 
 We can use this to test a site completely, use it for further development.
 
