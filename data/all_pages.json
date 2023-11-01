@@ -1,0 +1,69 @@
+{
+    "company": [
+        "https://acceptatiebredeschoolzuidoost.herokuapp.com/company/",
+        "https://acceptatiebredeschoolzuidoost.herokuapp.com/company/dashboard/39/",
+        "https://acceptatiebredeschoolzuidoost.herokuapp.com/company/contact/",
+        "https://acceptatiebredeschoolzuidoost.herokuapp.com/company/documents/",
+        "https://acceptatiebredeschoolzuidoost.herokuapp.com/company/detail/",
+        "https://acceptatiebredeschoolzuidoost.herokuapp.com/company/activiteiten/",
+        "https://acceptatiebredeschoolzuidoost.herokuapp.com/company/activiteiten/toevoegen/",
+        "https://acceptatiebredeschoolzuidoost.herokuapp.com/company/teachers/",
+        "https://acceptatiebredeschoolzuidoost.herokuapp.com/company/teachers/invite/",
+        "https://acceptatiebredeschoolzuidoost.herokuapp.com/company/dashboard/",
+        "https://acceptatiebredeschoolzuidoost.herokuapp.com/company/teachers/1643/"
+    ],
+    "parent": [
+        "https://acceptatiebredeschoolzuidoost.herokuapp.com/parent/",
+        "https://acceptatiebredeschoolzuidoost.herokuapp.com/parent/student/enrollment/19844/",
+        "https://acceptatiebredeschoolzuidoost.herokuapp.com/parent/setconsent",
+        "https://acceptatiebredeschoolzuidoost.herokuapp.com/student/19844/contact/",
+        "https://acceptatiebredeschoolzuidoost.herokuapp.com/student/19844/"
+    ],
+    "ppozo": [
+        "https://acceptatiebredeschoolzuidoost.herokuapp.com/ppozo/"
+    ],
+    "schoolmanager": [
+        "https://acceptatiebredeschoolzuidoost.herokuapp.com/schoolmanager/",
+        "https://acceptatiebredeschoolzuidoost.herokuapp.com/schoolmanager/activity-per-school/2/",
+        "https://acceptatiebredeschoolzuidoost.herokuapp.com/schoolmanager/2/not-placed/",
+        "https://acceptatiebredeschoolzuidoost.herokuapp.com/schoolmanager/student/enrollment/13288/",
+        "https://acceptatiebredeschoolzuidoost.herokuapp.com/schoolmanager/2/activiteit/1159/",
+        "https://acceptatiebredeschoolzuidoost.herokuapp.com/schoolmanager/student/10589/",
+        "https://acceptatiebredeschoolzuidoost.herokuapp.com/schoolmanager/student/10589/portfolio/",
+        "https://acceptatiebredeschoolzuidoost.herokuapp.com/schoolmanager/leerlingen/",
+        "https://acceptatiebredeschoolzuidoost.herokuapp.com/schoolmanager/leerlingen/2/8/",
+        "https://acceptatiebredeschoolzuidoost.herokuapp.com/schoolmanager/leerlingen/2/7/",
+        "https://acceptatiebredeschoolzuidoost.herokuapp.com/schoolmanager/leerlingen/2/6/",
+        "https://acceptatiebredeschoolzuidoost.herokuapp.com/schoolmanager/leerlingen/2/5/",
+        "https://acceptatiebredeschoolzuidoost.herokuapp.com/schoolmanager/leerlingen/2/4/",
+        "https://acceptatiebredeschoolzuidoost.herokuapp.com/schoolmanager/leerlingen/2/3/",
+        "https://acceptatiebredeschoolzuidoost.herokuapp.com/schoolmanager/leerlingen/2/2/",
+        "https://acceptatiebredeschoolzuidoost.herokuapp.com/schoolmanager/leerlingen/2/1/",
+        "https://acceptatiebredeschoolzuidoost.herokuapp.com/schoolmanager/leerlingen/2/9/",
+        "https://acceptatiebredeschoolzuidoost.herokuapp.com/schoolmanager/dashboard/2/",
+        "https://acceptatiebredeschoolzuidoost.herokuapp.com/schoolmanager/activities/2/",
+        "https://acceptatiebredeschoolzuidoost.herokuapp.com/schoolmanager/2/activiteit/1157/past/",
+        "https://acceptatiebredeschoolzuidoost.herokuapp.com/schoolmanager/activities/2/39/",
+        "https://acceptatiebredeschoolzuidoost.herokuapp.com/schoolmanager/activities/2/40/",
+        "https://acceptatiebredeschoolzuidoost.herokuapp.com/schoolmanager/activities/2/41/",
+        "https://acceptatiebredeschoolzuidoost.herokuapp.com/schoolmanager/2/activiteit/2246/future/",
+        "https://acceptatiebredeschoolzuidoost.herokuapp.com/schoolmanager/2/activiteit/2255/current/",
+        "https://acceptatiebredeschoolzuidoost.herokuapp.com/schoolmanager/leerlingen/2/",
+        "https://acceptatiebredeschoolzuidoost.herokuapp.com/schoolmanager/dashboard/2/39/",
+        "https://acceptatiebredeschoolzuidoost.herokuapp.com/schoolmanager/dashboard/2/40/",
+        "https://acceptatiebredeschoolzuidoost.herokuapp.com/schoolmanager/dashboard/2/41/"
+    ],
+    "teacher": [
+        "https://acceptatiebredeschoolzuidoost.herokuapp.com/teacher/",
+        "https://acceptatiebredeschoolzuidoost.herokuapp.com/teacher/attendance/2435/",
+        "https://acceptatiebredeschoolzuidoost.herokuapp.com/teacher/dashboard/",
+        "https://acceptatiebredeschoolzuidoost.herokuapp.com/teacher/profile/",
+        "https://acceptatiebredeschoolzuidoost.herokuapp.com/teacher/phonenumber/edit/",
+        "https://acceptatiebredeschoolzuidoost.herokuapp.com/teacher/companies/",
+        "https://acceptatiebredeschoolzuidoost.herokuapp.com/teacher/activiteiten/",
+        "https://acceptatiebredeschoolzuidoost.herokuapp.com/teacher/yeargroup-availability/",
+        "https://acceptatiebredeschoolzuidoost.herokuapp.com/teacher/availability/",
+        "https://acceptatiebredeschoolzuidoost.herokuapp.com/teacher/activiteiten/toevoegen/",
+        "https://acceptatiebredeschoolzuidoost.herokuapp.com/teacher/profile/edit/"
+    ]
+}

@@ -1,12 +1,13 @@
 const contentDiv = document.getElementById("content");
 
 // Assuming the JSON is hosted at the same domain under 'screenshots.json'
-fetch('screenshots.json')
+fetch('data/screenshots.json')
     .then(response => response.json())
     .then(data => {
         handleNavigation(data);
         window.addEventListener('popstate', () => handleNavigation(data));
     });
+
 
 function handleNavigation(data) {
     const hash = window.location.hash;
@@ -24,15 +25,16 @@ function handleNavigation(data) {
     }
 }
 
+
 function showHomepage(data) {
     contentDiv.innerHTML = `
         <h2 class="text-2xl mb-6 font-semibold">Pagina's per rol</h2>
         <table class="w-full mt-5 border border-gray-300 divide-y divide-gray-200 rounded-lg overflow-hidden">
             <thead>
                 <tr class="text-left bg-gray-200">
-                    <th class="px-4 py-2">Role Name</th>
-                    <th class="px-4 py-2">Number of Pages</th>
-                    <th class="px-4 py-2">Last Updated</th>
+                    <th class="px-4 py-2">Rol</th>
+                    <th class="px-4 py-2">Aantal pagina's</th>
+                    <th class="px-4 py-2">Screenshot datum</th>
                 </tr>
             </thead>
             <tbody>
@@ -79,7 +81,7 @@ function showRolePages(data, role) {
         pageRow.innerHTML = `
             <td class="px-4 py-2"><a href="${page.url}" class="text-blue-500 hover:underline">${page.url}</a></td>
             <td class="px-4 py-2">${page.statusCode}</td>
-            <td class="px-4 py-2"><a href="#/${role}/${page.id}" class="text-blue-500 hover:underline"><img class="thumbnail" src="${page.thumbnail}" alt="Thumbnail for ${page.url}"></a></td>
+            <td class="px-4 py-2"><a href="#/${role}/${page.id}" class="text-blue-500 hover:underline"><img class="thumbnail" src="${page.screenshot}" alt="Thumbnail for ${page.url}"></a></td>
         `;
         tableBody.appendChild(pageRow);
     });

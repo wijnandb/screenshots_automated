@@ -1,0 +1,433 @@
+{
+  "roles": [
+    {
+      "roleName": "company",
+      "timestamp": "2023-11-01T21:14:07Z",
+      "pages": [
+        {
+          "id": 79591404,
+          "url": "https://acceptatiebredeschoolzuidoost.herokuapp.com/company/",
+          "statusCode": 403,
+          "screenshot": "././data/screenshots/company/screenshot_0d8c886a7bb19e3bcd80d1589213d8ec.png",
+          "timestamp": "2023-11-01T21:13:49Z"
+        },
+        {
+          "id": 87700731,
+          "url": "https://acceptatiebredeschoolzuidoost.herokuapp.com/company/dashboard/39/",
+          "statusCode": 403,
+          "screenshot": "././data/screenshots/company/screenshot_544f831468e24f3729af1f47e7ffc1fb.png",
+          "timestamp": "2023-11-01T21:13:51Z"
+        },
+        {
+          "id": 11022502,
+          "url": "https://acceptatiebredeschoolzuidoost.herokuapp.com/company/contact/",
+          "statusCode": 403,
+          "screenshot": "././data/screenshots/company/screenshot_777507596c790e4ac8900c3b1f9f7fa6.png",
+          "timestamp": "2023-11-01T21:13:53Z"
+        },
+        {
+          "id": 88783257,
+          "url": "https://acceptatiebredeschoolzuidoost.herokuapp.com/company/documents/",
+          "statusCode": 403,
+          "screenshot": "././data/screenshots/company/screenshot_4f73d253679b6adbe52d2678c8f59d99.png",
+          "timestamp": "2023-11-01T21:13:55Z"
+        },
+        {
+          "id": 92554563,
+          "url": "https://acceptatiebredeschoolzuidoost.herokuapp.com/company/detail/",
+          "statusCode": 403,
+          "screenshot": "././data/screenshots/company/screenshot_1fc839297e150fafb9c013d6598f4943.png",
+          "timestamp": "2023-11-01T21:13:56Z"
+        },
+        {
+          "id": 89051214,
+          "url": "https://acceptatiebredeschoolzuidoost.herokuapp.com/company/activiteiten/",
+          "statusCode": 403,
+          "screenshot": "././data/screenshots/company/screenshot_5a65527c4e67b926fd463c55216f944e.png",
+          "timestamp": "2023-11-01T21:13:58Z"
+        },
+        {
+          "id": 24741324,
+          "url": "https://acceptatiebredeschoolzuidoost.herokuapp.com/company/activiteiten/toevoegen/",
+          "statusCode": 403,
+          "screenshot": "././data/screenshots/company/screenshot_8cc0bad55665fc897a0ba5b19a3ffbcc.png",
+          "timestamp": "2023-11-01T21:14:00Z"
+        },
+        {
+          "id": 89758907,
+          "url": "https://acceptatiebredeschoolzuidoost.herokuapp.com/company/teachers/",
+          "statusCode": 403,
+          "screenshot": "././data/screenshots/company/screenshot_0fb6ade8c49af1f394ce4055f38c67bb.png",
+          "timestamp": "2023-11-01T21:14:02Z"
+        },
+        {
+          "id": 38684996,
+          "url": "https://acceptatiebredeschoolzuidoost.herokuapp.com/company/teachers/invite/",
+          "statusCode": 403,
+          "screenshot": "././data/screenshots/company/screenshot_6b2b8279277e8fb7f6ce56346187a444.png",
+          "timestamp": "2023-11-01T21:14:04Z"
+        },
+        {
+          "id": 6497500,
+          "url": "https://acceptatiebredeschoolzuidoost.herokuapp.com/company/dashboard/",
+          "statusCode": 403,
+          "screenshot": "././data/screenshots/company/screenshot_333cf46d4a936c34cdcdfb5e24553bdc.png",
+          "timestamp": "2023-11-01T21:14:06Z"
+        },
+        {
+          "id": 61334937,
+          "url": "https://acceptatiebredeschoolzuidoost.herokuapp.com/company/teachers/1643/",
+          "statusCode": 403,
+          "screenshot": "././data/screenshots/company/screenshot_bd010c31f2acd82df514fa641e1e4999.png",
+          "timestamp": "2023-11-01T21:14:07Z"
+        }
+      ]
+    },
+    {
+      "roleName": "parent",
+      "timestamp": "2023-11-01T21:14:17Z",
+      "pages": [
+        {
+          "id": 2037583,
+          "url": "https://acceptatiebredeschoolzuidoost.herokuapp.com/parent/",
+          "statusCode": 200,
+          "screenshot": "././data/screenshots/parent/screenshot_533d69f7ed45a9c34a624303ca16434f.png",
+          "timestamp": "2023-11-01T21:14:09Z"
+        },
+        {
+          "id": 59018716,
+          "url": "https://acceptatiebredeschoolzuidoost.herokuapp.com/parent/student/enrollment/19844/",
+          "statusCode": 200,
+          "screenshot": "././data/screenshots/parent/screenshot_a35f93d47c7b54253b13b53bc58ddcdc.png",
+          "timestamp": "2023-11-01T21:14:12Z"
+        },
+        {
+          "id": 41552598,
+          "url": "https://acceptatiebredeschoolzuidoost.herokuapp.com/parent/setconsent",
+          "statusCode": 200,
+          "screenshot": "././data/screenshots/parent/screenshot_c9c1121999dc34594a1f93948c4a9fd6.png",
+          "timestamp": "2023-11-01T21:14:14Z"
+        },
+        {
+          "id": 65628064,
+          "url": "https://acceptatiebredeschoolzuidoost.herokuapp.com/student/19844/contact/",
+          "statusCode": 200,
+          "screenshot": "././data/screenshots/parent/screenshot_56ebfaa9c72a75af1bef18dea64969a0.png",
+          "timestamp": "2023-11-01T21:14:16Z"
+        },
+        {
+          "id": 93524579,
+          "url": "https://acceptatiebredeschoolzuidoost.herokuapp.com/student/19844/",
+          "statusCode": 200,
+          "screenshot": "././data/screenshots/parent/screenshot_a68940df5abb7a1fbfae20b26aa5fe63.png",
+          "timestamp": "2023-11-01T21:14:17Z"
+        }
+      ]
+    },
+    {
+      "roleName": "ppozo",
+      "timestamp": "2023-11-01T21:14:19Z",
+      "pages": [
+        {
+          "id": 19780659,
+          "url": "https://acceptatiebredeschoolzuidoost.herokuapp.com/ppozo/",
+          "statusCode": 403,
+          "screenshot": "././data/screenshots/ppozo/screenshot_24ddbb49b71ec6e2380efd64504e4e33.png",
+          "timestamp": "2023-11-01T21:14:19Z"
+        }
+      ]
+    },
+    {
+      "roleName": "schoolmanager",
+      "timestamp": "2023-11-01T21:15:14Z",
+      "pages": [
+        {
+          "id": 17838192,
+          "url": "https://acceptatiebredeschoolzuidoost.herokuapp.com/schoolmanager/",
+          "statusCode": 403,
+          "screenshot": "././data/screenshots/schoolmanager/screenshot_b679751cfac05ea5d686dfc75df28370.png",
+          "timestamp": "2023-11-01T21:14:22Z"
+        },
+        {
+          "id": 61438000,
+          "url": "https://acceptatiebredeschoolzuidoost.herokuapp.com/schoolmanager/activity-per-school/2/",
+          "statusCode": 200,
+          "screenshot": "././data/screenshots/schoolmanager/screenshot_a5c1b6537188137751d1a819296a4830.png",
+          "timestamp": "2023-11-01T21:14:25Z"
+        },
+        {
+          "id": 34719692,
+          "url": "https://acceptatiebredeschoolzuidoost.herokuapp.com/schoolmanager/2/not-placed/",
+          "statusCode": 403,
+          "screenshot": "././data/screenshots/schoolmanager/screenshot_7197bfd6bba84bcf1146b6e9baa6a8cc.png",
+          "timestamp": "2023-11-01T21:14:27Z"
+        },
+        {
+          "id": 11261910,
+          "url": "https://acceptatiebredeschoolzuidoost.herokuapp.com/schoolmanager/student/enrollment/13288/",
+          "statusCode": 403,
+          "screenshot": "././data/screenshots/schoolmanager/screenshot_38ddb6557fedcbf6d59f0760612726d6.png",
+          "timestamp": "2023-11-01T21:14:28Z"
+        },
+        {
+          "id": 59006214,
+          "url": "https://acceptatiebredeschoolzuidoost.herokuapp.com/schoolmanager/2/activiteit/1159/",
+          "statusCode": 403,
+          "screenshot": "././data/screenshots/schoolmanager/screenshot_ec8173920cb0a332956a3d7b32872006.png",
+          "timestamp": "2023-11-01T21:14:30Z"
+        },
+        {
+          "id": 21168145,
+          "url": "https://acceptatiebredeschoolzuidoost.herokuapp.com/schoolmanager/student/10589/",
+          "statusCode": 403,
+          "screenshot": "././data/screenshots/schoolmanager/screenshot_ed50beb1323886f8f7ab2df70c109911.png",
+          "timestamp": "2023-11-01T21:14:32Z"
+        },
+        {
+          "id": 82786661,
+          "url": "https://acceptatiebredeschoolzuidoost.herokuapp.com/schoolmanager/student/10589/portfolio/",
+          "statusCode": 403,
+          "screenshot": "././data/screenshots/schoolmanager/screenshot_f23f8881cfd98d552b501fdf9c2cd065.png",
+          "timestamp": "2023-11-01T21:14:34Z"
+        },
+        {
+          "id": 12240362,
+          "url": "https://acceptatiebredeschoolzuidoost.herokuapp.com/schoolmanager/leerlingen/",
+          "statusCode": 403,
+          "screenshot": "././data/screenshots/schoolmanager/screenshot_db437d24d3016da0025a0c0c5c3621ea.png",
+          "timestamp": "2023-11-01T21:14:36Z"
+        },
+        {
+          "id": 97357181,
+          "url": "https://acceptatiebredeschoolzuidoost.herokuapp.com/schoolmanager/leerlingen/2/8/",
+          "statusCode": 403,
+          "screenshot": "././data/screenshots/schoolmanager/screenshot_577872c4f640b976a45dbc8c9d15537d.png",
+          "timestamp": "2023-11-01T21:14:37Z"
+        },
+        {
+          "id": 85928207,
+          "url": "https://acceptatiebredeschoolzuidoost.herokuapp.com/schoolmanager/leerlingen/2/7/",
+          "statusCode": 403,
+          "screenshot": "././data/screenshots/schoolmanager/screenshot_d2cea3587e0a4ca2774341e9c35d5e0f.png",
+          "timestamp": "2023-11-01T21:14:39Z"
+        },
+        {
+          "id": 78253314,
+          "url": "https://acceptatiebredeschoolzuidoost.herokuapp.com/schoolmanager/leerlingen/2/6/",
+          "statusCode": 403,
+          "screenshot": "././data/screenshots/schoolmanager/screenshot_f9f731c0bd7216d10f989c1acaaf2802.png",
+          "timestamp": "2023-11-01T21:14:41Z"
+        },
+        {
+          "id": 5579335,
+          "url": "https://acceptatiebredeschoolzuidoost.herokuapp.com/schoolmanager/leerlingen/2/5/",
+          "statusCode": 403,
+          "screenshot": "././data/screenshots/schoolmanager/screenshot_6648d21d48e2db49b2714f68d5687847.png",
+          "timestamp": "2023-11-01T21:14:43Z"
+        },
+        {
+          "id": 11907589,
+          "url": "https://acceptatiebredeschoolzuidoost.herokuapp.com/schoolmanager/leerlingen/2/4/",
+          "statusCode": 403,
+          "screenshot": "././data/screenshots/schoolmanager/screenshot_f88e3525f3a4165e09a437e5ade9c105.png",
+          "timestamp": "2023-11-01T21:14:45Z"
+        },
+        {
+          "id": 5031719,
+          "url": "https://acceptatiebredeschoolzuidoost.herokuapp.com/schoolmanager/leerlingen/2/3/",
+          "statusCode": 403,
+          "screenshot": "././data/screenshots/schoolmanager/screenshot_ac8adb389a0be71fab03deb7a73d9227.png",
+          "timestamp": "2023-11-01T21:14:47Z"
+        },
+        {
+          "id": 59122748,
+          "url": "https://acceptatiebredeschoolzuidoost.herokuapp.com/schoolmanager/leerlingen/2/2/",
+          "statusCode": 403,
+          "screenshot": "././data/screenshots/schoolmanager/screenshot_56b4a8e57368ea4f21859b0d5747e23c.png",
+          "timestamp": "2023-11-01T21:14:49Z"
+        },
+        {
+          "id": 82639145,
+          "url": "https://acceptatiebredeschoolzuidoost.herokuapp.com/schoolmanager/leerlingen/2/1/",
+          "statusCode": 403,
+          "screenshot": "././data/screenshots/schoolmanager/screenshot_712bf2e41c87115678ac0fe3c8c71d29.png",
+          "timestamp": "2023-11-01T21:14:51Z"
+        },
+        {
+          "id": 45716248,
+          "url": "https://acceptatiebredeschoolzuidoost.herokuapp.com/schoolmanager/leerlingen/2/9/",
+          "statusCode": 403,
+          "screenshot": "././data/screenshots/schoolmanager/screenshot_f8360c37d78b8c358ecd82a80af59e18.png",
+          "timestamp": "2023-11-01T21:14:52Z"
+        },
+        {
+          "id": 55058235,
+          "url": "https://acceptatiebredeschoolzuidoost.herokuapp.com/schoolmanager/dashboard/2/",
+          "statusCode": 403,
+          "screenshot": "././data/screenshots/schoolmanager/screenshot_c285e8de6cc96b7eb159f621fdcd643b.png",
+          "timestamp": "2023-11-01T21:14:54Z"
+        },
+        {
+          "id": 80795132,
+          "url": "https://acceptatiebredeschoolzuidoost.herokuapp.com/schoolmanager/activities/2/",
+          "statusCode": 403,
+          "screenshot": "././data/screenshots/schoolmanager/screenshot_eee1eb1906d86d9e710290b0bdb42cfc.png",
+          "timestamp": "2023-11-01T21:14:56Z"
+        },
+        {
+          "id": 57164351,
+          "url": "https://acceptatiebredeschoolzuidoost.herokuapp.com/schoolmanager/2/activiteit/1157/past/",
+          "statusCode": 403,
+          "screenshot": "././data/screenshots/schoolmanager/screenshot_08d8eccf25af376cbd49397698543f3f.png",
+          "timestamp": "2023-11-01T21:14:58Z"
+        },
+        {
+          "id": 3770091,
+          "url": "https://acceptatiebredeschoolzuidoost.herokuapp.com/schoolmanager/activities/2/39/",
+          "statusCode": 403,
+          "screenshot": "././data/screenshots/schoolmanager/screenshot_aed68393991c7ef0ee270ac2f205b4eb.png",
+          "timestamp": "2023-11-01T21:15:00Z"
+        },
+        {
+          "id": 52096912,
+          "url": "https://acceptatiebredeschoolzuidoost.herokuapp.com/schoolmanager/activities/2/40/",
+          "statusCode": 403,
+          "screenshot": "././data/screenshots/schoolmanager/screenshot_8b75089ae45f0a8586df2021788a0490.png",
+          "timestamp": "2023-11-01T21:15:01Z"
+        },
+        {
+          "id": 35214170,
+          "url": "https://acceptatiebredeschoolzuidoost.herokuapp.com/schoolmanager/activities/2/41/",
+          "statusCode": 403,
+          "screenshot": "././data/screenshots/schoolmanager/screenshot_1c65b9475d08b486f8a1ce1ee8b8595a.png",
+          "timestamp": "2023-11-01T21:15:03Z"
+        },
+        {
+          "id": 89627891,
+          "url": "https://acceptatiebredeschoolzuidoost.herokuapp.com/schoolmanager/2/activiteit/2246/future/",
+          "statusCode": 403,
+          "screenshot": "././data/screenshots/schoolmanager/screenshot_365e38f75363521a94b4bbbd72a676f3.png",
+          "timestamp": "2023-11-01T21:15:05Z"
+        },
+        {
+          "id": 22660779,
+          "url": "https://acceptatiebredeschoolzuidoost.herokuapp.com/schoolmanager/2/activiteit/2255/current/",
+          "statusCode": 403,
+          "screenshot": "././data/screenshots/schoolmanager/screenshot_aede6d951fb18acd3230ee12cf0129ab.png",
+          "timestamp": "2023-11-01T21:15:07Z"
+        },
+        {
+          "id": 45976541,
+          "url": "https://acceptatiebredeschoolzuidoost.herokuapp.com/schoolmanager/leerlingen/2/",
+          "statusCode": 403,
+          "screenshot": "././data/screenshots/schoolmanager/screenshot_f0ae974661fff934d14cb33604f23add.png",
+          "timestamp": "2023-11-01T21:15:09Z"
+        },
+        {
+          "id": 38946746,
+          "url": "https://acceptatiebredeschoolzuidoost.herokuapp.com/schoolmanager/dashboard/2/39/",
+          "statusCode": 403,
+          "screenshot": "././data/screenshots/schoolmanager/screenshot_11b9b84f37f8fcaf5144975f31e3e5ba.png",
+          "timestamp": "2023-11-01T21:15:10Z"
+        },
+        {
+          "id": 92897138,
+          "url": "https://acceptatiebredeschoolzuidoost.herokuapp.com/schoolmanager/dashboard/2/40/",
+          "statusCode": 403,
+          "screenshot": "././data/screenshots/schoolmanager/screenshot_46e711d98918a00a335fcba59d5fed72.png",
+          "timestamp": "2023-11-01T21:15:12Z"
+        },
+        {
+          "id": 55415977,
+          "url": "https://acceptatiebredeschoolzuidoost.herokuapp.com/schoolmanager/dashboard/2/41/",
+          "statusCode": 403,
+          "screenshot": "././data/screenshots/schoolmanager/screenshot_58cc27e389c5db81641174039938c6a9.png",
+          "timestamp": "2023-11-01T21:15:14Z"
+        }
+      ]
+    },
+    {
+      "roleName": "teacher",
+      "timestamp": "2023-11-01T21:15:33Z",
+      "pages": [
+        {
+          "id": 66697009,
+          "url": "https://acceptatiebredeschoolzuidoost.herokuapp.com/teacher/",
+          "statusCode": 403,
+          "screenshot": "././data/screenshots/teacher/screenshot_b00814b7e3f1668f522b6044a8e86031.png",
+          "timestamp": "2023-11-01T21:15:16Z"
+        },
+        {
+          "id": 33891932,
+          "url": "https://acceptatiebredeschoolzuidoost.herokuapp.com/teacher/attendance/2435/",
+          "statusCode": 403,
+          "screenshot": "././data/screenshots/teacher/screenshot_3ac01bd06aa08bb6c3e6b02c5d933a5c.png",
+          "timestamp": "2023-11-01T21:15:17Z"
+        },
+        {
+          "id": 81899404,
+          "url": "https://acceptatiebredeschoolzuidoost.herokuapp.com/teacher/dashboard/",
+          "statusCode": 403,
+          "screenshot": "././data/screenshots/teacher/screenshot_861c54b8d33f47b201ffe377dd90f98c.png",
+          "timestamp": "2023-11-01T21:15:19Z"
+        },
+        {
+          "id": 66130070,
+          "url": "https://acceptatiebredeschoolzuidoost.herokuapp.com/teacher/profile/",
+          "statusCode": 403,
+          "screenshot": "././data/screenshots/teacher/screenshot_9fa778c18721d8a047ddf271227b8a96.png",
+          "timestamp": "2023-11-01T21:15:21Z"
+        },
+        {
+          "id": 41844469,
+          "url": "https://acceptatiebredeschoolzuidoost.herokuapp.com/teacher/phonenumber/edit/",
+          "statusCode": 403,
+          "screenshot": "././data/screenshots/teacher/screenshot_93bb9e8555809d652bd9cf33e603cff5.png",
+          "timestamp": "2023-11-01T21:15:23Z"
+        },
+        {
+          "id": 85937707,
+          "url": "https://acceptatiebredeschoolzuidoost.herokuapp.com/teacher/companies/",
+          "statusCode": 403,
+          "screenshot": "././data/screenshots/teacher/screenshot_a2c54a98ea9e919c6013316dbcf20d2b.png",
+          "timestamp": "2023-11-01T21:15:24Z"
+        },
+        {
+          "id": 17690238,
+          "url": "https://acceptatiebredeschoolzuidoost.herokuapp.com/teacher/activiteiten/",
+          "statusCode": 200,
+          "screenshot": "././data/screenshots/teacher/screenshot_61dc3a677d0139484a611b703f22d97e.png",
+          "timestamp": "2023-11-01T21:15:26Z"
+        },
+        {
+          "id": 12983777,
+          "url": "https://acceptatiebredeschoolzuidoost.herokuapp.com/teacher/yeargroup-availability/",
+          "statusCode": 403,
+          "screenshot": "././data/screenshots/teacher/screenshot_94e6c5f17d253cb0d5c6707952d3bae1.png",
+          "timestamp": "2023-11-01T21:15:27Z"
+        },
+        {
+          "id": 7653874,
+          "url": "https://acceptatiebredeschoolzuidoost.herokuapp.com/teacher/availability/",
+          "statusCode": 403,
+          "screenshot": "././data/screenshots/teacher/screenshot_d49a72a36201dadd466ddc67141abcf2.png",
+          "timestamp": "2023-11-01T21:15:29Z"
+        },
+        {
+          "id": 27909525,
+          "url": "https://acceptatiebredeschoolzuidoost.herokuapp.com/teacher/activiteiten/toevoegen/",
+          "statusCode": 403,
+          "screenshot": "././data/screenshots/teacher/screenshot_2bb4d36a7e0f14c410a5761257860195.png",
+          "timestamp": "2023-11-01T21:15:31Z"
+        },
+        {
+          "id": 1973029,
+          "url": "https://acceptatiebredeschoolzuidoost.herokuapp.com/teacher/profile/edit/",
+          "statusCode": 403,
+          "screenshot": "././data/screenshots/teacher/screenshot_d63805721edb576b92f2b38732305025.png",
+          "timestamp": "2023-11-01T21:15:33Z"
+        }
+      ]
+    }
+  ]
+}
