@@ -65,5 +65,14 @@
         "https://acceptatiebredeschoolzuidoost.herokuapp.com/teacher/availability/",
         "https://acceptatiebredeschoolzuidoost.herokuapp.com/teacher/activiteiten/toevoegen/",
         "https://acceptatiebredeschoolzuidoost.herokuapp.com/teacher/profile/edit/"
+    ],
+    "general": [
+        "https://acceptatiebredeschoolzuidoost.herokuapp.com/",
+        "https://acceptatiebredeschoolzuidoost.herokuapp.com/activity/",
+        "https://acceptatiebredeschoolzuidoost.herokuapp.com/about/",
+        "https://acceptatiebredeschoolzuidoost.herokuapp.com/faq/",
+        "https://acceptatiebredeschoolzuidoost.herokuapp.com/accounts/signup/",
+        "https://acceptatiebredeschoolzuidoost.herokuapp.com/accounts/password/reset/",
+        "https://acceptatiebredeschoolzuidoost.herokuapp.com/accounts/login/"
     ]
 }
